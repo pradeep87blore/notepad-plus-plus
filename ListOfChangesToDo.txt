@@ -1,0 +1,11 @@
+This file shall list out a planned set of changes I intend to make. This file might be removed later on.
+
+Planned enhancements:
+-----------------------
+1. Add a new search parameter when we press the Ctrl Shift F -> This should specify a list of words, which if found in the file name or file path, that file should be excluded from search. Use case: I want to search for a specific function name in a project directory but ignore all the files or folders that contain the word 'test'
+
+2. A new keyboard shortcut which can add a special character, at the point of the current caret / cursor 'n' number of times. Thus, if we assume the shortcut is ctrl + alt + d, it should popup a new window which shall ask for a character to be entered and ask for the number of times the character is to be repeated. Once entered, that character is added those many times at the place of the current cursor
+
+
+Completed enhancements:
+------------------------
