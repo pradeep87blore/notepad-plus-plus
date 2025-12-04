@@ -405,6 +405,11 @@ BEGIN
             MENUITEM "Using 3rd Style",    IDM_SEARCH_MARKALLEXT3
             MENUITEM "Using 4th Style",    IDM_SEARCH_MARKALLEXT4
             MENUITEM "Using 5th Style",    IDM_SEARCH_MARKALLEXT5
+            MENUITEM "Using 6th Style",    IDM_SEARCH_MARKALLEXT6
+            MENUITEM "Using 7th Style",    IDM_SEARCH_MARKALLEXT7
+            MENUITEM "Using 8th Style",    IDM_SEARCH_MARKALLEXT8
+            MENUITEM "Using 9th Style",    IDM_SEARCH_MARKALLEXT9
+            MENUITEM "Using 10th Style",   IDM_SEARCH_MARKALLEXT10
         END
         POPUP "Unmark All"
         BEGIN
@@ -413,6 +418,11 @@ BEGIN
             MENUITEM "Clear 3rd Style",     IDM_SEARCH_UNMARKALLEXT3
             MENUITEM "Clear 4th Style",     IDM_SEARCH_UNMARKALLEXT4
             MENUITEM "Clear 5th Style",     IDM_SEARCH_UNMARKALLEXT5
+            MENUITEM "Clear 6th Style",     IDM_SEARCH_UNMARKALLEXT6
+            MENUITEM "Clear 7th Style",     IDM_SEARCH_UNMARKALLEXT7
+            MENUITEM "Clear 8th Style",     IDM_SEARCH_UNMARKALLEXT8
+            MENUITEM "Clear 9th Style",     IDM_SEARCH_UNMARKALLEXT9
+            MENUITEM "Clear 10th Style",    IDM_SEARCH_UNMARKALLEXT10
             MENUITEM "Clear all Styles",    IDM_SEARCH_CLEARALLMARKS
         END
         POPUP "Jump up"
@@ -422,6 +432,11 @@ BEGIN
             MENUITEM "3rd Style",     IDM_SEARCH_GOPREVMARKER3
             MENUITEM "4th Style",     IDM_SEARCH_GOPREVMARKER4
             MENUITEM "5th Style",     IDM_SEARCH_GOPREVMARKER5
+            MENUITEM "6th Style",     IDM_SEARCH_GOPREVMARKER6
+            MENUITEM "7th Style",     IDM_SEARCH_GOPREVMARKER7
+            MENUITEM "8th Style",     IDM_SEARCH_GOPREVMARKER8
+            MENUITEM "9th Style",     IDM_SEARCH_GOPREVMARKER9
+            MENUITEM "10th Style",    IDM_SEARCH_GOPREVMARKER10
             MENUITEM "Find Style",    IDM_SEARCH_GOPREVMARKER_DEF
         END
         POPUP "Jump down"
@@ -431,6 +446,11 @@ BEGIN
             MENUITEM "3rd Style",      IDM_SEARCH_GONEXTMARKER3
             MENUITEM "4th Style",      IDM_SEARCH_GONEXTMARKER4
             MENUITEM "5th Style",      IDM_SEARCH_GONEXTMARKER5
+            MENUITEM "6th Style",      IDM_SEARCH_GONEXTMARKER6
+            MENUITEM "7th Style",      IDM_SEARCH_GONEXTMARKER7
+            MENUITEM "8th Style",      IDM_SEARCH_GONEXTMARKER8
+            MENUITEM "9th Style",      IDM_SEARCH_GONEXTMARKER9
+            MENUITEM "10th Style",     IDM_SEARCH_GONEXTMARKER10
             MENUITEM "Find Style",     IDM_SEARCH_GONEXTMARKER_DEF
         END
         MENUITEM SEPARATOR

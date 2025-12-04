@@ -305,6 +305,11 @@ void ScintillaEditView::init(HINSTANCE hInst, HWND hPere)
 	execute(SCI_INDICSETSTYLE, SCE_UNIVERSAL_FOUND_STYLE_EXT3, INDIC_ROUNDBOX);
 	execute(SCI_INDICSETSTYLE, SCE_UNIVERSAL_FOUND_STYLE_EXT4, INDIC_ROUNDBOX);
 	execute(SCI_INDICSETSTYLE, SCE_UNIVERSAL_FOUND_STYLE_EXT5, INDIC_ROUNDBOX);
+	execute(SCI_INDICSETSTYLE, SCE_UNIVERSAL_FOUND_STYLE_EXT6, INDIC_ROUNDBOX);
+	execute(SCI_INDICSETSTYLE, SCE_UNIVERSAL_FOUND_STYLE_EXT7, INDIC_ROUNDBOX);
+	execute(SCI_INDICSETSTYLE, SCE_UNIVERSAL_FOUND_STYLE_EXT8, INDIC_ROUNDBOX);
+	execute(SCI_INDICSETSTYLE, SCE_UNIVERSAL_FOUND_STYLE_EXT9, INDIC_ROUNDBOX);
+	execute(SCI_INDICSETSTYLE, SCE_UNIVERSAL_FOUND_STYLE_EXT10, INDIC_ROUNDBOX);
 
 	execute(SCI_INDICSETALPHA, SCE_UNIVERSAL_FOUND_STYLE_SMART, 100);
 	execute(SCI_INDICSETALPHA, SCE_UNIVERSAL_FOUND_STYLE, 100);
@@ -316,6 +321,11 @@ void ScintillaEditView::init(HINSTANCE hInst, HWND hPere)
 	execute(SCI_INDICSETALPHA, SCE_UNIVERSAL_FOUND_STYLE_EXT3, 100);
 	execute(SCI_INDICSETALPHA, SCE_UNIVERSAL_FOUND_STYLE_EXT4, 100);
 	execute(SCI_INDICSETALPHA, SCE_UNIVERSAL_FOUND_STYLE_EXT5, 100);
+	execute(SCI_INDICSETALPHA, SCE_UNIVERSAL_FOUND_STYLE_EXT6, 100);
+	execute(SCI_INDICSETALPHA, SCE_UNIVERSAL_FOUND_STYLE_EXT7, 100);
+	execute(SCI_INDICSETALPHA, SCE_UNIVERSAL_FOUND_STYLE_EXT8, 100);
+	execute(SCI_INDICSETALPHA, SCE_UNIVERSAL_FOUND_STYLE_EXT9, 100);
+	execute(SCI_INDICSETALPHA, SCE_UNIVERSAL_FOUND_STYLE_EXT10, 100);
 
 	execute(SCI_INDICSETUNDER, SCE_UNIVERSAL_FOUND_STYLE_SMART, true);
 	execute(SCI_INDICSETUNDER, SCE_UNIVERSAL_FOUND_STYLE, true);
@@ -327,6 +337,11 @@ void ScintillaEditView::init(HINSTANCE hInst, HWND hPere)
 	execute(SCI_INDICSETUNDER, SCE_UNIVERSAL_FOUND_STYLE_EXT3, true);
 	execute(SCI_INDICSETUNDER, SCE_UNIVERSAL_FOUND_STYLE_EXT4, true);
 	execute(SCI_INDICSETUNDER, SCE_UNIVERSAL_FOUND_STYLE_EXT5, true);
+	execute(SCI_INDICSETUNDER, SCE_UNIVERSAL_FOUND_STYLE_EXT6, true);
+	execute(SCI_INDICSETUNDER, SCE_UNIVERSAL_FOUND_STYLE_EXT7, true);
+	execute(SCI_INDICSETUNDER, SCE_UNIVERSAL_FOUND_STYLE_EXT8, true);
+	execute(SCI_INDICSETUNDER, SCE_UNIVERSAL_FOUND_STYLE_EXT9, true);
+	execute(SCI_INDICSETUNDER, SCE_UNIVERSAL_FOUND_STYLE_EXT10, true);
 	_pParameter = NppParameters::getInstance();
 
 	_codepage = ::GetACP();
@@ -1409,7 +1424,57 @@ void ScintillaEditView::defineDocType(LangType typeDoc)
     }
 	setSpecialIndicator(*pStyle);
 
-    // Il faut surtout faire un test ici avant d'exécuter SCI_SETCODEPAGE
+	defaultIndicatorStyle._styleID = SCE_UNIVERSAL_FOUND_STYLE_EXT6;
+	defaultIndicatorStyle._bgColor = pink;
+	pStyle = &defaultIndicatorStyle;
+	iFind = stylers.getStylerIndexByID(SCE_UNIVERSAL_FOUND_STYLE_EXT6);
+    if (iFind != -1)
+    {
+        pStyle = &(stylers.getStyler(iFind));
+    }
+	setSpecialIndicator(*pStyle);
+
+	defaultIndicatorStyle._styleID = SCE_UNIVERSAL_FOUND_STYLE_EXT7;
+	defaultIndicatorStyle._bgColor = tan;
+	pStyle = &defaultIndicatorStyle;
+	iFind = stylers.getStylerIndexByID(SCE_UNIVERSAL_FOUND_STYLE_EXT7);
+    if (iFind != -1)
+    {
+        pStyle = &(stylers.getStyler(iFind));
+    }
+	setSpecialIndicator(*pStyle);
+
+	defaultIndicatorStyle._styleID = SCE_UNIVERSAL_FOUND_STYLE_EXT8;
+	defaultIndicatorStyle._bgColor = coral;
+	pStyle = &defaultIndicatorStyle;
+	iFind = stylers.getStylerIndexByID(SCE_UNIVERSAL_FOUND_STYLE_EXT8);
+    if (iFind != -1)
+    {
+        pStyle = &(stylers.getStyler(iFind));
+    }
+	setSpecialIndicator(*pStyle);
+
+	defaultIndicatorStyle._styleID = SCE_UNIVERSAL_FOUND_STYLE_EXT9;
+	defaultIndicatorStyle._bgColor = lime;
+	pStyle = &defaultIndicatorStyle;
+	iFind = stylers.getStylerIndexByID(SCE_UNIVERSAL_FOUND_STYLE_EXT9);
+    if (iFind != -1)
+    {
+        pStyle = &(stylers.getStyler(iFind));
+    }
+	setSpecialIndicator(*pStyle);
+
+	defaultIndicatorStyle._styleID = SCE_UNIVERSAL_FOUND_STYLE_EXT10;
+	defaultIndicatorStyle._bgColor = skyBlue;
+	pStyle = &defaultIndicatorStyle;
+	iFind = stylers.getStylerIndexByID(SCE_UNIVERSAL_FOUND_STYLE_EXT10);
+    if (iFind != -1)
+    {
+        pStyle = &(stylers.getStyler(iFind));
+    }
+	setSpecialIndicator(*pStyle);
+
+    // Il faut surtout faire un test ici avant d'exï¿½cuter SCI_SETCODEPAGE
     // Sinon y'aura un soucis de performance!
 	if (isCJK())
 	{

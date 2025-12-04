@@ -59,6 +59,11 @@ const COLORREF cyan      	            = RGB(0,    0xFF, 0xFF);
 const COLORREF orange		            = RGB(0xFF, 0x80, 0x00);
 const COLORREF purple		            = RGB(0x80, 0x00, 0xFF);
 const COLORREF deepPurple	            = RGB(0x87, 0x13, 0x97);
+const COLORREF pink			            = RGB(0xFF, 0x00, 0xFF);
+const COLORREF tan			            = RGB(0xC0, 0x80, 0x40);
+const COLORREF coral		            = RGB(0xFF, 0x60, 0x60);
+const COLORREF lime			            = RGB(0x80, 0xFF, 0x00);
+const COLORREF skyBlue		            = RGB(0x00, 0x80, 0xFF);
 
 const COLORREF extremeLitePurple        = RGB(0xF8, 0xE8, 0xFF);
 const COLORREF veryLitePurple           = RGB(0xE7, 0xD8, 0xE9);

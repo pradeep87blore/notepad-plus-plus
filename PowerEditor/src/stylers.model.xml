@@ -1357,6 +1357,11 @@
         <WidgetStyle name="Mark Style 3" styleID="23" bgColor="FFFF00" />
         <WidgetStyle name="Mark Style 4" styleID="22" bgColor="8000FF" />
         <WidgetStyle name="Mark Style 5" styleID="21" bgColor="008000" />
+        <WidgetStyle name="Mark Style 6" styleID="20" bgColor="FF00FF" />
+        <WidgetStyle name="Mark Style 7" styleID="19" bgColor="C08040" />
+        <WidgetStyle name="Mark Style 8" styleID="18" bgColor="FF6060" />
+        <WidgetStyle name="Mark Style 9" styleID="17" bgColor="80FF00" />
+        <WidgetStyle name="Mark Style 10" styleID="16" bgColor="0080FF" />
         <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="0080FF" />
         <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="8000FF" />
         <WidgetStyle name="Tags attribute" styleID="26" bgColor="FFFF00" />

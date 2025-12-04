@@ -221,6 +221,17 @@
     #define    IDM_SEARCH_UNMARKALLEXT5        (IDM_SEARCH + 31)
     #define    IDM_SEARCH_CLEARALLMARKS        (IDM_SEARCH + 32)
 
+    #define    IDM_SEARCH_MARKALLEXT6          (IDM_SEARCH + 55)
+    #define    IDM_SEARCH_UNMARKALLEXT6        (IDM_SEARCH + 56)
+    #define    IDM_SEARCH_MARKALLEXT7          (IDM_SEARCH + 57)
+    #define    IDM_SEARCH_UNMARKALLEXT7        (IDM_SEARCH + 58)
+    #define    IDM_SEARCH_MARKALLEXT8          (IDM_SEARCH + 59)
+    #define    IDM_SEARCH_UNMARKALLEXT8        (IDM_SEARCH + 60)
+    #define    IDM_SEARCH_MARKALLEXT9          (IDM_SEARCH + 61)
+    #define    IDM_SEARCH_UNMARKALLEXT9        (IDM_SEARCH + 62)
+    #define    IDM_SEARCH_MARKALLEXT10         (IDM_SEARCH + 63)
+    #define    IDM_SEARCH_UNMARKALLEXT10       (IDM_SEARCH + 64)
+
     #define    IDM_SEARCH_GOPREVMARKER1        (IDM_SEARCH + 33)
     #define    IDM_SEARCH_GOPREVMARKER2        (IDM_SEARCH + 34)
     #define    IDM_SEARCH_GOPREVMARKER3        (IDM_SEARCH + 35)
@@ -234,6 +245,18 @@
     #define    IDM_SEARCH_GONEXTMARKER4        (IDM_SEARCH + 42)
     #define    IDM_SEARCH_GONEXTMARKER5        (IDM_SEARCH + 43)
     #define    IDM_SEARCH_GONEXTMARKER_DEF     (IDM_SEARCH + 44)
+
+    #define    IDM_SEARCH_GOPREVMARKER6        (IDM_SEARCH + 65)
+    #define    IDM_SEARCH_GOPREVMARKER7        (IDM_SEARCH + 66)
+    #define    IDM_SEARCH_GOPREVMARKER8        (IDM_SEARCH + 67)
+    #define    IDM_SEARCH_GOPREVMARKER9        (IDM_SEARCH + 68)
+    #define    IDM_SEARCH_GOPREVMARKER10       (IDM_SEARCH + 69)
+
+    #define    IDM_SEARCH_GONEXTMARKER6        (IDM_SEARCH + 70)
+    #define    IDM_SEARCH_GONEXTMARKER7        (IDM_SEARCH + 71)
+    #define    IDM_SEARCH_GONEXTMARKER8        (IDM_SEARCH + 72)
+    #define    IDM_SEARCH_GONEXTMARKER9        (IDM_SEARCH + 73)
+    #define    IDM_SEARCH_GONEXTMARKER10       (IDM_SEARCH + 74)
 
     #define    IDM_FOCUS_ON_FOUND_RESULTS      (IDM_SEARCH + 45)
     #define    IDM_SEARCH_GOTONEXTFOUND	       (IDM_SEARCH + 46)
